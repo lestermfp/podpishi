@@ -1,0 +1,44 @@
+/**
+ * Variables
+*/
+
+/* Typography */
+$font: 'Roboto', Arial, sans-serif;
+$font-accent: 'Gilroy', Arial, sans-serif;
+
+/* Breakpoints */
+$mobile-s: 576px;
+$mobile: 768px;
+$tablet: 992px;
+$desktop: 1200px;
+
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+
+/* Paths */
+
+/* Grid setup */
+
+/* Colour palette */
+$black: #0B0C0E;
+$white: #fff;
+$green: #00A23D;
+$green-hover: #218838;
+$red: #FFB0C5;
+$gray-bg: #F7F8F9;
+$gray: #D9DBDC;
+$gray-hover: #CACBCE;
+
+$form-outline: #B5CDF8;
+$form-error: $red;
+
+$fb: #3B5998;
+$twitter: #3CC6EE;
+$vk: #507299;
+$ok: #EE8208;
+$insta: #E92DB4;
+
+$body-background-color: #e5e5e5;
+$foreground-color: $black;
+$accent-color: $green;
+$accent-color-hover: $green-hover;

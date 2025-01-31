@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1a65bf14-f4b9-4a27-af1c-faaee3a8b4d1" name="podpishi new p" url="http://51.68.37.110">
+        <fileTransfer host="51.68.37.110" port="22" rootFolder="/var/www/podpishi.org" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

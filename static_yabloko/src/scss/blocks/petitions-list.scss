@@ -1,0 +1,32 @@
+.petitions-list {
+	padding-top: 64px;
+	padding-bottom: 26px;
+	background-color: $white;
+
+	@media (max-width: 767px) {
+		padding-top: 22px;
+		padding-bottom: 48px;
+	}
+
+	.row > * {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 64px;
+
+		@media (max-width: 767px) {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.petitions-list__toggle {
+	margin-right: 10%;
+
+	@media (max-width: 991px) {
+		margin-right: 0;
+	}
+
+	@media (max-width: 767px) {
+		margin-top: 20px;
+	}
+}

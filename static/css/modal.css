@@ -1,0 +1,303 @@
+.modal-wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .1);
+    display: none;
+    z-index: 7777;
+}
+
+.modal {
+    width: 560px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin: 0 auto;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 21px;
+    box-shadow: 0px 0px 60px 1px rgba(0, 0, 0, 0.5);
+    z-index: 8888;
+}
+
+.modal .icon-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.modal .flexbox__item {
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    position: relative;
+    padding-bottom: 55px;
+}
+
+.modal .flexbox__item:first-of-type {
+    margin-right: 20px;
+}
+
+.modal1 .modal__title {
+    margin-bottom: 40px;
+}
+
+.modal2 .modal__title {
+    margin-bottom: 30px;
+}
+
+.modal1 .text-bigger {
+    margin-bottom: 10px;
+}
+
+.modal__text {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.modal2 .modal__text {
+    padding-bottom: 20px;
+}
+
+.modal1 .button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal3 {
+    padding: 35px 40px 65px 40px;
+}
+
+.modal3 .modal__title {
+    margin-bottom: 30px;
+}
+
+.modal3 .modal__text {
+    text-align: center;
+}
+
+.signin {
+    text-align: left;
+    padding: 50px 40px 30px 40px;
+}
+
+.signin .form__row--button {
+    margin-top: 20px;
+}
+
+.modal5 {
+    padding: 30px 40px 65px 40px;
+}
+
+.modal6 {
+    padding-bottom: 65px;
+}
+
+.modal6 .modal__title {
+    margin-bottom: 35px;
+}
+
+.enrolled {
+    text-align: left;
+}
+
+.enrolled.modal {
+    width: 880px;
+    padding: 50px 40px 30px 40px;
+}
+
+.enrolled__item .flexbox__item {
+    padding-bottom: 0;
+    margin-bottom: 35px;
+}
+
+.enrolled__item .flexbox__item:nth-child(1){
+    -webkit-flex: 2.4;
+        -ms-flex: 2.4;
+            flex: 2.4;
+}
+
+.enrolled__item .flexbox__item:nth-child(2){
+    -webkit-flex: 2.5;
+        -ms-flex: 2.5;
+            flex: 2.5;
+}
+
+.enrolled__item .flexbox__item:nth-child(3){
+    -webkit-flex: 3.3;
+        -ms-flex: 3.3;
+            flex: 3.3;
+}
+
+.enrolled__num {
+    margin: 0 10px 0 -20px;
+}
+
+.enrolled .modal__title {
+    margin-bottom: 42px;
+}
+
+.enrolled__city {
+    margin-right: 15px;
+}
+
+.enrolled__contacts {
+    width: 210px;
+}
+
+.enrolled__social .text-link {
+    margin-right: 8px;
+    line-height: 16px;
+}
+
+.unsocial {
+    display: none;
+}
+
+.unsocial--active {
+    display: block;
+}
+
+.enrolled__quote {
+    line-height: 15px;
+}
+
+.cheerup {
+    padding: 40px;
+}
+
+.cheerup .cheerup__coordinator {
+    text-align: left;
+}
+
+.cheerup .cheerup__dash {
+    width: 55px;
+    height: 1px;
+    background-color: #000;
+    margin-top: 40px;
+}
+
+.cheerup .cheerup__quote {
+    font-style: italic;
+    margin-top: 28px;
+    line-height: 24px;
+}
+
+.cheerup .text-link {
+    display: inline-block;
+    line-height: 15px;
+}
+
+.cheerup__name {
+    line-height: 16px;
+}
+
+.cheerup__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 5px 0;
+}
+
+.cheerup__img img {
+    width: 80px;
+}
+
+.cheerup .flexbox__item:first-of-type {
+    margin: 0;
+}
+
+.passwordChangePopup .form__label {
+    width: 190px;
+}
+
+.cause .form__textarea {
+    width: 480px;
+    height: 90px;
+}
+
+.cause .text-bigger {
+    margin: 10px 0 15px 0;
+}
+
+.cause .button {
+    width: 160px;
+}
+
+.modal10, .modal14 {
+    width: 540px;
+    padding: 50px 50px 20px 50px;
+    text-align: left;
+}
+
+.modal10 .text-link, .modal14 .text-link {
+    display: inline-block;
+    float: right;
+    margin-right: 70px;
+    line-height: 15px;
+}
+
+.modal10 .button, .modal14 .button {
+    width: 135px;
+}
+
+.modal10 .form__input, .modal11 .form__input, .modal14 .form__input {
+    width: 280px;
+}
+
+.modal10 .form__label, .modal14 .form__label {
+    width: 80px;
+}
+
+.modal11 {
+    width: 540px;
+    padding: 50px 50px 40px 50px;
+    text-align: center;
+}
+
+.modal11 .button {
+    width: 160px;
+}
+
+.modal12 {
+    height: 250px;
+    width: 540px;
+    padding: 50px 60px 40px 60px;
+}
+
+.modal12 .form__row, .modal13 .centered {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.modal13 {
+    height: 250px;
+    width: 540px;
+    padding: 50px 60px 40px 60px;
+}
+
+.modal13 .button{
+    width: 240px;
+}
+
+.modal14 .message {
+    width: 350px;
+}
+

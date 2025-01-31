@@ -1,0 +1,141 @@
+.petition-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.petition-section__date {
+	order: -1;
+	align-self: flex-start;
+	margin-bottom: 25px;
+	padding: 8px 12px 4px 30px;
+	font-family: $font-accent;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 10px;
+	line-height: 1.2;
+	color: #797979;
+	letter-spacing: 0.01em;
+	background-color: #E8E9ED;
+	background-image: url("data:image/svg+xml,%3Csvg width='15' height='14' viewBox='0 0 15 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='7.24541' cy='7.12065' r='6.82036' fill='%23797979'/%3E%3Cline x1='7.01626' y1='3.11709' x2='7.01626' y2='7.66596' stroke='white' stroke-width='1.36407' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cline x1='9.50026' y1='9.24953' x2='7.02453' y2='7.84306' stroke='white' stroke-width='1.36407' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	background-size: 14px auto;
+	background-position: 9px center;
+	border-radius: 3px;
+
+	@media (max-width: 768px) {
+		margin-bottom: 16px;
+	}
+}
+
+.petition-section__title {
+	margin-bottom: 35px;
+	max-width: 630px;
+	font-family: $font-accent;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.0476190476190477;
+	letter-spacing: 0.01em;
+
+	@media (max-width: 768px) {
+		font-size: 32px;
+		line-height: 34px;
+	}
+}
+
+.petition-section__wrapper {
+	position: relative;
+	display: grid;
+	align-content: start;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 70px;
+
+	@media (max-width: 1279px) {
+		grid-gap: 30px;
+	}
+
+	@media (max-width: 900px) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.petition-section__main {
+	@media (max-width: 900px) {
+		display: contents;
+	}
+}
+
+.petition-section__aside {
+	position: relative;
+
+	@media (max-width: 900px) {
+		position: static;
+		display: contents;
+	}
+}
+
+.petition-section__article {
+	margin-bottom: 80px;
+
+	@media (max-width: 900px) {
+		order: -2;
+		margin-bottom: 0;
+	}
+}
+
+.petition-section__floating-block {
+	position: sticky;
+	top: 0;
+	left: 0;
+
+	@media (max-width: 900px) {
+		position: static;
+		display: contents;
+	}
+}
+
+.petition-section__info {
+	margin-bottom: 30px;
+	padding: 30px 35px;
+	background-color: $gray-bg;
+	border-radius: 8px;
+
+	@media (max-width: 768px) {
+		padding: 32px 28px;
+	}
+}
+
+.petition-section__info_floating {
+	@media (max-width: 900px) {
+		position: sticky;
+		bottom: 0;
+		left: 0;
+	}
+
+	@media (max-width: 768px) {
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-top: 2px;
+		padding-bottom: 11px;
+		width: calc(100% + 30px);
+		background-color: $white;
+		border-top: 2px solid $accent-color;
+		border-radius: 0;
+		box-shadow: 0 -22px 24px rgba(0, 0, 0, 0.1);
+
+		.petition-info {
+			margin: 0 auto;
+			max-width: 212px;
+		}
+	}
+}
+
+.petition-section__info_author {
+	@media (max-width: 900px) {
+		order: -1;
+	}
+
+	@media (max-width: 768px) {
+		padding-bottom: 47px;
+	}
+}

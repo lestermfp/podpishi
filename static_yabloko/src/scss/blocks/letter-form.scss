@@ -1,0 +1,92 @@
+.letter-form__text {
+	padding-left: 10px;
+
+	@media (max-width: 768px) {
+		margin-bottom: 23px;
+	}
+}
+
+.letter-form__fieldset {
+	margin-bottom: 18px;
+}
+
+.letter-form__field-label {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+.letter-form__field {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 0 10px;
+	height: 30px;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: $white;
+	border: 0;
+
+	&::placeholder {
+		color: #bdbdbd;
+		opacity: 1;
+	}
+}
+
+.letter-form__note {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+	color: #bdbdbd;
+}
+
+.letter-form__name {
+	margin-bottom: 6px;
+
+	.letter-form__field {
+		margin-bottom: 0;
+	}
+}
+
+.letter-form__signature-field {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-sizing: border-box;
+	min-height: 121px;
+	margin: 25px 0 10px;
+	padding: 23px 23px 7px;
+	background-color: $white;
+
+	input {
+		display: block;
+		margin-bottom: 3px;
+		width: 100%;
+		padding: 0 10px;
+		height: 30px;
+		font-family: inherit;
+		font-size: 14px;
+		line-height: 20px;
+		background-color: transparent;
+		border: 0;
+		border-bottom: 1px solid #E8E9ED;
+	}
+
+	button {
+		align-self: flex-end;
+		padding: 0;
+		font-family: inherit;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 18px;
+		color: $accent-color;
+		background-color: transparent;
+		border: 0;
+		transition: color 0.3s ease;
+
+		&:hover {
+			color: $accent-color-hover;
+		}
+	}
+}

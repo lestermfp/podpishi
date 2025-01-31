@@ -1,0 +1,46 @@
+.petition-info {
+	font-family: $font-accent;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	color: $accent-color;
+
+	.btn {
+		width: 100%;
+	}
+}
+
+.petition-info__total {
+	display: flex;
+	align-items: center;
+	margin-bottom: 28px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #E8E9ED;
+
+	@media (max-width: 768px) {
+		justify-content: space-between;
+		margin-bottom: 3px;
+		padding-bottom: 0;
+		font-size: 14px;
+		border-bottom: 0;
+	}
+
+	b {
+		margin-right: 18px;
+		font-weight: 700;
+		font-size: 42px;
+		line-height: 1;
+		padding-left: 50px;
+		min-height: 32px;
+		background-image: url("data:image/svg+xml,%3Csvg width='34' height='33' viewBox='0 0 34 33' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.3041 15.5873C9.10094 15.5873 5.68237 12.1687 5.68237 7.9656C5.68237 3.76245 9.10094 0.287842 13.3041 0.287842C17.5072 0.287842 20.9258 3.7064 20.9258 7.90956C20.9258 12.1127 17.5633 15.5873 13.3041 15.5873ZM13.3041 2.80973C10.502 2.80973 8.20426 5.10745 8.20426 7.90956C8.20426 10.7117 10.502 13.0094 13.3041 13.0094C16.1062 13.0094 18.4039 10.7117 18.4039 7.90956C18.4039 5.10745 16.1622 2.80973 13.3041 2.80973Z' fill='%2300A23D'/%3E%3Cpath d='M23.1677 21.3036C22.271 19.9586 20.7018 19.0619 18.9645 19.0619H18.1799C16.7228 19.9586 15.0416 20.463 13.3603 20.463C11.623 20.463 9.99781 20.0146 8.54071 19.0619H7.75612C4.95402 19.0619 2.6563 21.3597 2.6563 24.1618V25.4507H12.1834L15.0416 27.9726H0.0783691V24.1618C0.0783691 19.9586 3.49693 16.54 7.70008 16.54H9.26926L9.60551 16.7642C10.7264 17.5488 12.0153 17.9411 13.3603 17.9411C14.7053 17.9411 15.9943 17.5488 17.1151 16.7642L17.4514 16.54H19.0206C21.4864 16.54 23.6721 17.7169 25.0731 19.5103L23.1677 21.3036Z' fill='%2300A23D'/%3E%3Cpath d='M22.1591 32.2879L14.9297 25.0585L18.1241 21.8641L22.1591 25.9551L30.061 18.0532L33.1994 21.2476L22.1591 32.2879Z' fill='%2300A23D'/%3E%3C/svg%3E%0A");
+		background-repeat: no-repeat;
+		background-size: 33px auto;
+		background-position: left center;
+
+		@media (max-width: 768px) {
+			padding-left: 30px;
+			font-size: 28px;
+			background-size: 24px auto;
+		}
+	}
+}

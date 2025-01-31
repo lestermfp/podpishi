@@ -1,0 +1,33 @@
+.page-footer {
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: $font-accent;
+	background-color: #E8E9ED;
+	border-top: 42px solid $foreground-color;
+
+	h2 {
+		font-weight: 700;
+		font-size: 42px;
+		line-height: 1.666667;
+		letter-spacing: 0.01em;
+
+		@media (max-width: 767px) {
+			line-height: 40px;
+		}
+	}
+}
+
+.page-footer__share {
+	padding-top: 44px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid $white;
+
+	@media (max-width: 767px) {
+		padding-top: 30px;
+	}
+}
+
+.page-footer__projects {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}

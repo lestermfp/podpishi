@@ -1,0 +1,813 @@
+.form {
+    width: 540px;
+    display: inline-block;
+    padding: 30px 10px 40px 20px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    background-color: #e5f7fd;
+    margin-left: -20px;
+    position: relative;
+}
+
+.pomogat .form {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form__row {
+    margin-bottom: 19px;
+    position: relative;
+}
+
+.form__row--nomargin {
+    margin: 0;
+}
+
+.form__row--moremargin {
+    margin-bottom: 40px;
+}
+
+.form__kostili {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 0;
+    left: -5px;
+    z-index: 1;
+    background-color: #e5f7fd;
+}
+
+.form__textarea +.form__kostili {
+    top: 10px;
+}
+
+.form__row--cluster {
+    margin-bottom: 0;
+}
+
+.form__row--lined {
+    padding-top: 25px;
+    border-top: 1px solid #fff;
+}
+
+.form__title {
+    font-weight: 500;
+}
+
+.form__input, .form__textarea {
+    position: relative;
+    width: 240px;
+    height: 40px;
+    border: 1px solid #e8e4de;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    box-shadow:         inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
+    font-size: 16px;
+    z-index: 2;
+}
+
+.form__input--middle, .form__input--bottom {
+    box-shadow: none;
+}
+
+.form__textarea {
+    height: 100px;
+    vertical-align: top;
+    padding-top: 11px;
+    resize: none;
+}
+
+.form__input:focus, .form__textarea:focus {
+    box-shadow: none;
+    border: 1px solid #b1daf4;
+}
+
+.form__input--hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.form__input--error {
+    box-shadow: none;
+    border: 1px solid #ff0000;
+}
+
+.form__input--top {
+    height: 35px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.form__input--middle {
+    height: 35px;
+    border-radius: 0px;
+}
+
+.form__input--bottom {
+    height: 35px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.form__row--cluster .form__input {
+    border-bottom:  1px solid transparent;
+}
+
+.form__row--cluster .form__input:focus {
+    border-bottom: 1px solid #b1daf4;
+}
+
+.form__input--long {
+    width: 360px;
+}
+
+.form__input--short {
+    width: 80px;
+}
+
+.form__label {
+    width: 130px;
+    display: inline-block;
+}
+
+.form__label[for="other"] {
+    position: relative;
+    top: 12px;
+}
+
+.form__help {
+    position: relative;
+    left: 131px;
+    top: 3px;
+    margin-left: 4px;
+}
+
+.form__error {
+    display: inline-block;
+    width: 180px;
+    vertical-align: top;
+    margin-left: 10px;
+    color: #ff0000;
+}
+
+.form__note {
+    width: 300px;
+    position: absolute;
+    right: -350px;
+    top: 10px;
+}
+
+.form__note:before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .3);
+    left: -210px;
+    top: 10px;
+}
+
+.pomogat .form__note {
+    right: 50px;
+}
+
+.form__radio-button {
+    display: inline-block;
+    border: 1px solid #00aeef;
+    border-radius: 8px;
+    text-align: center;
+    color: #00aeef;
+    font-weight: 500;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: color .3s, border .2s;
+}
+
+.form__radio-button:hover {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+}
+
+.form__radio-button--pressed {
+
+}
+
+.privel .form__radio-button, .pomoshnik .form__radio-button, .myfollower .form__radio-button {
+    width: 32px;
+    height: 32px;
+    line-height: 1.8;
+    margin: 5px 1px 0 0;
+}
+
+input[type="radio"]:checked+.form__radio-button {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    cursor: default;
+}
+
+input[type="radio"]:checked+.form__radio-button--pressed {
+    border: 1px solid transparent;
+    background-color: #0183de;
+    color: #fff;
+    box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.23);
+}
+
+label[for = "align"] {
+    vertical-align: text-top;
+}
+
+.form__radio-button+.form__help {
+    margin-top: -8px;
+}
+
+input[name="district"]+.form__radio-button {
+    width: 180px;
+    height: 40px;
+    margin-right: 15px;
+    line-height: 2.2;
+}
+
+input[name="registration"]+.form__radio-button {
+    width: 60px;
+    height: 40px;
+    margin-right: 15px;
+    line-height: 2.2;
+}
+
+.form__socials {
+    width: 760px;
+}
+
+.form__socials .form__label {
+    text-align: right;
+}
+
+.form__checkboxes {
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.form__checkboxes.advice_types {
+    margin-left: 20px;
+}
+
+.form__checkbox, .form__radio-circle {
+    transition: color .2s;
+    position: relative;
+    cursor: pointer;
+}
+
+.form__checkbox:before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -3px;
+    left: 0;
+    border: 1px solid #e8e4de;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.form__checkbox:after {
+    content: none;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 1px;
+    left: 4px;
+    background-image: url(../images/icon-check.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.form__checkbox:hover, .form__radio-circle:hover {
+    color: #0096ff;
+}
+
+/*input[name="help"]:checked+.form__checkbox:after {
+    content: '';
+}*/
+
+.form__checkbox span, .form__radio-circle span {
+    display: inline-block;
+    vertical-align: text-top;
+    padding-left: 30px;
+}
+
+.form__checkboxes .flexbox__item {
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+#help4-1 {
+    margin-left: 30px;
+}
+
+.form__radio-circle {
+    position: relative;
+    cursor: pointer;
+}
+
+.form__radio-circle:before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -3px;
+    left: 0;
+    border: 1px solid #e8e4de;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
+}
+
+.form__radio-circle:after {
+    content: none;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 1px;
+    left: 4px;
+    border-radius: 50%;
+    background-color: #0096ff;
+}
+
+input[type="radio"]:checked+.form__radio-circle:after, input[type="checkbox"]:checked+.form__checkbox:after {
+    content: '';
+}
+
+.form__radio-circle span, .form__checkbox span {
+    cursor: pointer;
+}
+
+.form__block--hidden {
+    display: none;
+}
+
+.form__label.label-social {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.form__label.form__label--status {
+    width: 300px;
+}
+
+.form__socials .form__row {
+    margin-bottom: 10px;
+}
+
+input[name="street"] {
+    z-index: 99;
+}
+
+.add {
+    cursor: pointer;
+}
+
+.add__button {
+    width: 33px;
+    height: 33px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.add__image {
+    width: 14px;
+    height: 13px;
+    position: relative;
+    top: 9px;
+    left: 0;
+    margin: 0 auto;
+    background-image: url(../images/icon-plus.png);
+    background-repeat: no-repeat;
+}
+
+.add__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.add:hover .add__button {
+    border: 1px solid #ff0000;
+}
+
+.add:hover .add__text {
+    color: #ff0000;
+}
+
+.form__label--separated {
+    width: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.signin {
+    text-align: left;
+}
+
+.tenant2 {
+    display: none;
+}
+
+.form__input--keygen {
+    width: 205px;
+    border: 1px solid transparent;
+    margin: 0 10px 0 -11px;
+    text-align: center;
+    font-weight: 500;
+    z-index: 0;
+}
+
+.form__input--keygen:focus {
+    border: 1px solid transparent;
+}
+
+.forma_agitator .form__row--button {
+    margin: 0 auto 11px auto;
+}
+
+.form__label.text-small {
+    margin-right: 5px;
+}
+
+.forma_agitator .form, .forma_coordinator .form, .forma_pomoschnik .form {
+    width: 100%;
+}
+
+.loadphoto .form__radio-button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pomoshnik .form__radios, .forma_pomoschnik .form__radios {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pomoshnik .form__radio-circle span, .forma_pomoschnik .form__radio-circle span {
+    padding: 0;
+}
+
+.forma_pomoschnik .form__radio-circle.text-small span {
+    padding-left: 30px;
+}
+
+.forma_pomoschnik .form__radios .flexbox__item {
+    margin-right: 30px;
+}
+
+.form__radios--less-margin .form__row {
+    margin-bottom: 7px;
+}
+
+
+.form--tenant {
+    width: 620px;
+    margin-left: 0;
+    position: relative;
+    padding-top: 20px;
+}
+
+.pomoshnik .form--tenant .form__textarea {
+    width: 440px;
+}
+
+.pomoshnik .form__edit {
+    display: inline-block;
+    position: relative;
+}
+
+.pomoshnik .form__edit--remove {
+    color: #ff0000;
+    border-bottom: 1px solid #ff0000;
+}
+
+.pomoshnik .form__edit--remove:hover {
+    border-bottom: 1px solid #ff0000;
+}
+
+.pomoshnik .form__edit--edit {
+    width: 140px;
+    padding-left: 26px;
+    font-weight: 400;
+    line-height: 2.3;
+    vertical-align: top;
+}
+
+.pomoshnik .form__edit--edit:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 11px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/icon-edit.png);
+    background-repeat: no-repeat;
+}
+
+.pomoshnik .form--tenant .form__title {
+    width: 125px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.form--disabled .form__input, .form--disabled .form__textarea, .form--disabled .form__radio-circle:before {
+    background-color: #e5f7fd;
+    pointer-events: none;
+}
+
+.form--disabled .form__checkbox:hover, .form--disabled .form__radio-circle:hover {
+    color: #010101;
+}
+
+.form--disabled .form__textarea[name="accept_message"] {
+    background-color: #fff;
+    pointer-events: visible;
+}
+
+.form--steps {
+    width: 580px;
+    padding: 10px 20px 40px 20px;
+    margin-bottom: 20px;
+}
+
+.form--steps .form__checkbox:after {
+    background-position: -12px 0;
+}
+
+.form--steps .form__checkbox span {
+    visibility: hidden;
+    color: #39b54a;
+}
+
+.form--steps input[type="checkbox"]:checked+.form__checkbox span {
+    visibility: visible;
+}
+
+.form--steps .form__radio-button, .form--wide .form__radio-button {
+    width: 160px;
+    height: 40px;
+    line-height: 2.4;
+    vertical-align: middle;
+}
+
+.loadphoto .form__radio-button {
+    height: 40px;
+    line-height: 2.4;
+}
+
+.form--steps .form__textarea {
+    width: 400px;
+    height: 160px;
+    margin-top: 15px;
+}
+
+.steps__item .form__radio-button span {
+    line-height: 1;
+    transition: color .3s, border .2s;
+    pointer-events: none;
+}
+
+.accept {
+    position: absolute;
+    margin-left: 90px;
+}
+
+.accept__message {
+    width: 300px;
+    padding: 10px;
+    display: none;
+}
+
+.accept__message--active {
+    display: block;
+    position: relative;
+    margin-top: -10px;
+    z-index: 99;
+    left: -20px;
+}
+
+.accept__message--active:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #e5f7fd;
+    top: 15px;
+    left: -10px;
+    -webkit-transform: skewX(-60deg);
+        -ms-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+            transform-origin: right bottom;
+}
+
+.accept__icon {
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    width: 39px;
+    height: 35px;
+    background-image: url(../images/icon-accept.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.accept__icon--filled {
+    background-position: -39px 0;
+}
+
+.accept__icon--inactive {
+    display: none;
+}
+
+.accept .form__textarea {
+    width: 100%;
+    margin: 0 auto 10px 0;
+    resize: none;
+}
+
+.accept__controls {
+    position: relative;
+}
+
+.accept .button {
+    margin-left: 0;
+}
+
+.accept .icon-close {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.form--slider {
+    width: 580px;
+    padding: 15px 20px 40px 20px;
+}
+
+.forma_about_porch .form__input--long {
+    width: 485px;
+}
+
+.forma_about_porch .form__radio-circle span {
+    padding-left: 30px;
+}
+
+#inhabital_amount_entrance, #inhabital_amount_entrance+.text-small {
+    margin-left: 30px;
+}
+
+.forma_about_porch .form__radio-button {
+    width: 33px;
+    height: 33px;
+    margin-right: 3px;
+}
+
+.form--tenant .add {
+    display: inline-block;
+}
+
+.form--addhelper {
+    width: 100%;
+}
+
+#street-other {
+    z-index: 51;
+}
+
+.addevent .form__row.otherme-text {
+    margin-top: -20px;
+}
+
+.addevent .flexbox__item .form__row {
+    margin-bottom: 10px;
+}
+
+.radio-circles .form__row {
+    margin-bottom: 10px;
+}
+
+.radio-circles .flexbox__item:last-child {
+    margin-left: 10px;
+}
+
+.form--event .form {
+    width: 560px;
+}
+
+.form__label[for="event-participants"] {
+    vertical-align: top;
+}
+
+.form__input[name="event-participants"] {
+    margin-bottom: 10px;
+}
+
+.form__textarea[name="event-time-comment"] {
+    width: 250px;
+    margin-left: 5px;
+}
+
+.form--event .form__input--short {
+    width: 100px;
+}
+
+.datepicker {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/icon-datepicker.png);
+    top: 8px;
+    left: 195px;
+    z-index: 2;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+#datepicker {
+    cursor: pointer;
+}
+
+.form--event .text-bigger {
+    margin: 30px 0 20px 0;
+}
+
+.form--event .form__textarea {
+    height: 80px;
+}
+
+.event-time-comment {
+    width: 245px;
+    margin-left: 10px;
+}
+
+.note-form {
+    width: 390px;
+    margin: 0 auto 30px auto;
+}
+
+.form--disabled_all {
+    pointer-events: none;
+    position: relative;
+}
+
+.form--disabled_all:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.form__note--inner {
+    top: 0;
+    right: 0;
+}
+
+.form__note--inner:before {
+    content: none;
+}
+
+.form--wide {
+    width: 100%;
+}
+
+.profile .form__socials {
+    margin-bottom: 20px;
+}
+
+.profile .form__help {
+    max-width: 400px;
+}
+
+/*.form__checkboxes .flexbox {
+    justify-content: flex-start;
+}
+
+.form__checkboxes .flexbox .flexbox__item:first-child {
+    margin-right: 52px;
+}
+
+.form__checkboxes .flexbox .flexbox__item span {
+    width: 290px;
+}*/
+
+
+
+
+
+
+

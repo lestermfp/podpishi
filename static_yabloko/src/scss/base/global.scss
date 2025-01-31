@@ -1,0 +1,42 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	min-width: 320px;
+	min-height: 100vh;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4286;
+	letter-spacing: 0.01em;
+	color: $foreground-color;
+	background-color: $body-background-color;
+}
+
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip: rect(0, 0, 0, 0);
+	overflow: hidden;
+	position: absolute;
+	height: 1px;
+	width: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.desktop-only {
+	@media (max-width: 900px) {
+		display: none;
+	}
+}
+
+.mobile-only {
+	display: none;
+
+	@media (max-width: 900px) {
+		display: initial;
+	}
+}

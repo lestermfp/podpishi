@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d9c79f9-e7de-41a8-98a0-1abcbb764b5b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/autopetition_yabloko.php" afterPath="$PROJECT_DIR$/modules/autopetition_yabloko.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/headers/site_footer_yabloko.php" afterPath="$PROJECT_DIR$/modules/headers/site_footer_yabloko.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>viksem999</find>
+      <find>new_appeal</find>
+      <find>насел</find>
+      <find>choose</find>
+      <find>none</find>
+      <find>город Псков</find>
+      <find>city_type</find>
+      <find>проверьте а</find>
+      <find>data-title</find>
+      <find>проверьте</find>
+      <find>итого</find>
+      <find>sendMessageNow</find>
+      <find>auth</find>
+      <find>$userstackUrl</find>
+      <find>$browserReply</find>
+      <find>yabloko</find>
+      <find>yabloko_chat</find>
+      <find>domain</find>
+      <find>$user</find>
+      <find>user_id</find>
+      <find>151058</find>
+      <find>entrie</find>
+      <find>excep</find>
+      <find>великие луки</find>
+      <find>Великие Луки</find>
+      <find>Псков</find>
+      <find>Населённый пункт*</find>
+      <find>getSocialInfo</find>
+      <find>fb</find>
+      <find>facebook</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/modules</dir>
+      <dir>$PROJECT_DIR$/ajax</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/modules/headers</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ajax/ajax_petition.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/classes/db_federal_regions.php" />
+        <option value="$PROJECT_DIR$/modules/cabinet_proxy.php" />
+        <option value="$PROJECT_DIR$/modules/panel/panel_statistics.php" />
+        <option value="$PROJECT_DIR$/static/libs/signature_pad/signature_pad.min.js" />
+        <option value="$PROJECT_DIR$/static/libs/sweetalert2/sweetalert2.min.js" />
+        <option value="$PROJECT_DIR$/static/libs/sweetalert2/sweetalert2.min.css" />
+        <option value="$PROJECT_DIR$/modules/index_petitions.php" />
+        <option value="$PROJECT_DIR$/ajax/ajax_auth.php" />
+        <option value="$PROJECT_DIR$/static/libs/alertify/alertify.min.js" />
+        <option value="$PROJECT_DIR$/static/libs/alertify/alertify.min.css" />
+        <option value="$PROJECT_DIR$/ajax/tg/log_handlers/new_campaign.php" />
+        <option value="$PROJECT_DIR$/static/libs/mailcheckjs/mailchekcjs.js" />
+        <option value="$PROJECT_DIR$/classes/uniGeocoder.php" />
+        <option value="$PROJECT_DIR$/classes/simpleXLSXGen.php" />
+        <option value="$PROJECT_DIR$/modules/downloadExport.php" />
+        <option value="$PROJECT_DIR$/classes/appeals_xlsx_export.php" />
+        <option value="$PROJECT_DIR$/ajax/tg/log_handlers/export_xslx.php" />
+        <option value="$PROJECT_DIR$/modules/printappeals.php" />
+        <option value="$PROJECT_DIR$/modules/panel/panel_petitionslist.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/modules/printappeals_yabloko.php" />
+        <option value="$PROJECT_DIR$/modules/panel/panel_appeals.php" />
+        <option value="$PROJECT_DIR$/classes/db_cik_nodes.php" />
+        <option value="$PROJECT_DIR$/ajax/ajax_payment_agregate.php" />
+        <option value="$PROJECT_DIR$/ajax/ajax_regular_pd.php" />
+        <option value="$PROJECT_DIR$/static/form_gong.html" />
+        <option value="$PROJECT_DIR$/static/form_bitrix.html" />
+        <option value="$PROJECT_DIR$/ajax/yabloko_bitrix/bx.php" />
+        <option value="$PROJECT_DIR$/config/modules.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/classes/db_authors_to_campaigns.php" />
+        <option value="&lt;1a65bf14-f4b9-4a27-af1c-faaee3a8b4d1&gt;/classes/activerecord/lib/Connection.php" />
+        <option value="$PROJECT_DIR$/ajax/ajax_stand.php" />
+        <option value="$PROJECT_DIR$/modules/templates/social_block_svg_yabloko.php" />
+        <option value="$PROJECT_DIR$/modules/panel/panel_editpetition.php" />
+        <option value="$PROJECT_DIR$/modules/autopetition.php" />
+        <option value="$PROJECT_DIR$/ajax/ajax_petition_admin.php" />
+        <option value="$PROJECT_DIR$/static_yabloko/src/scss/blocks/page-header.scss" />
+        <option value="$PROJECT_DIR$/modules/index_yabloko.php" />
+        <option value="$PROJECT_DIR$/modules/headers/site_header_yabloko.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/ajax/ajax_appeal.php" />
+        <option value="$PROJECT_DIR$/classes/db_models.php" />
+        <option value="$PROJECT_DIR$/classes/db_campaigns_list.php" />
+        <option value="$PROJECT_DIR$/ajax/tg/log_handlers/new_appeal.php" />
+        <option value="$PROJECT_DIR$/classes/gamerhost_class.php" />
+        <option value="$PROJECT_DIR$/ajax/tg/tg_botBase.php" />
+        <option value="$PROJECT_DIR$/ajax/tg/log_handlers/auth.php" />
+        <option value="$PROJECT_DIR$/ajax/tg/tg_pdSendMessages.php" />
+        <option value="$PROJECT_DIR$/modules/autopetition_yabloko.php" />
+        <option value="$PROJECT_DIR$/modules/headers/site_footer_yabloko.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="37" />
+    <option name="width" value="1470" />
+    <option name="height" value="839" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="podpishi.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="podpishi.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="podpishi.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="podpishi.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="podpishi.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="podpishi.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tg" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="podpishi.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="podpishi.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="log_handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="podpishi.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="podpishi.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="podpishi.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="podpishi.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="podpishi.org" type="b2602c69:ProjectViewProjectNode" />
+              <item name="podpishi.org" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="headers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ajax/tg/log_handlers" />
+      <recent name="$PROJECT_DIR$/static_yabloko/dist/images/content" />
+      <recent name="$PROJECT_DIR$/classes" />
+      <recent name="$PROJECT_DIR$/ajax/yabloko_bitrix" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d9c79f9-e7de-41a8-98a0-1abcbb764b5b" name="Default" comment="" />
+      <created>1616104441099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616104441099</updated>
+      <workItem from="1616104442428" duration="851000" />
+      <workItem from="1616148989263" duration="5403000" />
+      <workItem from="1616322494321" duration="1278000" />
+      <workItem from="1616339330233" duration="3851000" />
+      <workItem from="1616504079971" duration="24000" />
+      <workItem from="1616608259187" duration="7290000" />
+      <workItem from="1616950552138" duration="3672000" />
+      <workItem from="1617018293053" duration="1089000" />
+      <workItem from="1617020861754" duration="7000" />
+      <workItem from="1617021409737" duration="1363000" />
+      <workItem from="1617057822663" duration="3829000" />
+      <workItem from="1617299096208" duration="980000" />
+      <workItem from="1618841235071" duration="641000" />
+      <workItem from="1618930895159" duration="542000" />
+      <workItem from="1619721298377" duration="1461000" />
+      <workItem from="1620388373405" duration="8737000" />
+      <workItem from="1620399749527" duration="513000" />
+      <workItem from="1620407086894" duration="959000" />
+      <workItem from="1620506716508" duration="3643000" />
+      <workItem from="1620570830805" duration="2046000" />
+      <workItem from="1620741907848" duration="603000" />
+      <workItem from="1620743640456" duration="1043000" />
+      <workItem from="1620745015866" duration="1158000" />
+      <workItem from="1621099114679" duration="240000" />
+      <workItem from="1621195058272" duration="1557000" />
+      <workItem from="1621444389998" duration="728000" />
+      <workItem from="1621508071547" duration="536000" />
+      <workItem from="1621513428248" duration="1241000" />
+      <workItem from="1621587416457" duration="1252000" />
+      <workItem from="1621763088189" duration="4726000" />
+      <workItem from="1621963105981" duration="742000" />
+      <workItem from="1621968787113" duration="4000" />
+      <workItem from="1622017406076" duration="389000" />
+      <workItem from="1622022902993" duration="3273000" />
+      <workItem from="1622058931921" duration="594000" />
+      <workItem from="1622114369788" duration="4000" />
+      <workItem from="1622453416121" duration="3245000" />
+      <workItem from="1622629905472" duration="235000" />
+      <workItem from="1622631153469" duration="25000" />
+      <workItem from="1623269727056" duration="37000" />
+      <workItem from="1623778971643" duration="7414000" />
+      <workItem from="1623836601142" duration="133000" />
+      <workItem from="1624539347591" duration="878000" />
+      <workItem from="1624828107504" duration="647000" />
+      <workItem from="1624970571301" duration="1971000" />
+      <workItem from="1625741010903" duration="1634000" />
+      <workItem from="1625913587376" duration="477000" />
+      <workItem from="1625921722178" duration="2536000" />
+      <workItem from="1625941831365" duration="1031000" />
+      <workItem from="1626442127657" duration="266000" />
+      <workItem from="1626442584238" duration="683000" />
+      <workItem from="1626972544306" duration="24000" />
+      <workItem from="1627379960940" duration="658000" />
+      <workItem from="1627924860054" duration="1152000" />
+      <workItem from="1627936009994" duration="330000" />
+      <workItem from="1627986709110" duration="18000" />
+      <workItem from="1628171063179" duration="1119000" />
+      <workItem from="1628190218112" duration="1965000" />
+      <workItem from="1628229734483" duration="599000" />
+      <workItem from="1628261160674" duration="3000" />
+      <workItem from="1629380591342" duration="87000" />
+      <workItem from="1629714031095" duration="10000" />
+      <workItem from="1629827364585" duration="1012000" />
+      <workItem from="1629833176202" duration="74000" />
+      <workItem from="1629905311905" duration="608000" />
+      <workItem from="1630002847407" duration="5249000" />
+      <workItem from="1630345719772" duration="599000" />
+      <workItem from="1635791842594" duration="1557000" />
+      <workItem from="1643270583876" duration="608000" />
+      <workItem from="1643358676425" duration="1413000" />
+      <workItem from="1644221950149" duration="1215000" />
+      <workItem from="1644230809599" duration="135000" />
+      <workItem from="1644348599337" duration="1764000" />
+      <workItem from="1644487917264" duration="333000" />
+      <workItem from="1644496957149" duration="2667000" />
+      <workItem from="1644525134267" duration="3299000" />
+      <workItem from="1644775603829" duration="2905000" />
+      <workItem from="1644789142437" duration="3322000" />
+      <workItem from="1644851603059" duration="20000" />
+      <workItem from="1644928761237" duration="740000" />
+      <workItem from="1645025109142" duration="294000" />
+      <workItem from="1645648916228" duration="567000" />
+      <workItem from="1651331012887" duration="104000" />
+      <workItem from="1652115068275" duration="124000" />
+      <workItem from="1702658364474" duration="924000" />
+      <workItem from="1706029730955" duration="1025000" />
+      <workItem from="1706125887912" duration="160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="124164000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="37" width="1470" height="839" extended-state="0" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26960784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6680217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3116531" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_petition_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12160">
+          <caret line="640" column="33" lean-forward="false" selection-start-line="640" selection-start-column="21" selection-end-line="640" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_appeal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="35" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/panel/panel_appeals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3914">
+          <caret line="206" column="50" lean-forward="false" selection-start-line="206" selection-start-column="37" selection-end-line="206" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/panel/panel_petitionslist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3724">
+          <caret line="196" column="10" lean-forward="false" selection-start-line="196" selection-start-column="10" selection-end-line="196" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_petition_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12160">
+          <caret line="640" column="33" lean-forward="false" selection-start-line="640" selection-start-column="21" selection-end-line="640" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_appeal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="35" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/panel/panel_appeals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3914">
+          <caret line="206" column="50" lean-forward="false" selection-start-line="206" selection-start-column="37" selection-end-line="206" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/panel/panel_petitionslist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3724">
+          <caret line="196" column="10" lean-forward="false" selection-start-line="196" selection-start-column="10" selection-end-line="196" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/panel/panel_welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/index_petitions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/templates/social_block_svg_yabloko.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/panel/panel_petitionslist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2084">
+          <caret line="153" column="19" lean-forward="false" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_authors_to_campaigns.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/panel/panel_editpetition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="764" column="31" lean-forward="true" selection-start-line="764" selection-start-column="31" selection-end-line="764" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_stand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="131" column="52" lean-forward="false" selection-start-line="131" selection-start-column="52" selection-end-line="131" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/panel/panel_appeals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7353">
+          <caret line="387" column="30" lean-forward="false" selection-start-line="387" selection-start-column="30" selection-end-line="387" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/printappeals_yabloko.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/autopetition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_yabloko/src/scss/blocks/petition-section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/headers/site_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_yabloko/dist/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10405" column="17" lean-forward="false" selection-start-line="10405" selection-start-column="17" selection-end-line="10405" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_yabloko/src/scss/blocks/page-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="119" column="4" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_yabloko/src/scss/blocks/petitions-list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_yabloko/src/scss/blocks/petition-article.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_petition_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="591" column="42" lean-forward="false" selection-start-line="591" selection-start-column="42" selection-end-line="591" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_regular_pd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_public.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1180">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/gd_mailgun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/headers/site_header_yabloko.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_petition_staging.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="239" column="0" lean-forward="true" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_petition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6289">
+          <caret line="331" column="0" lean-forward="true" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/tg/log_handlers/new_appeal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_appeal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="637" column="87" lean-forward="true" selection-start-line="637" selection-start-column="14" selection-end-line="637" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_campaigns_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="186" column="8" lean-forward="false" selection-start-line="186" selection-start-column="8" selection-end-line="190" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/gamerhost_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="265" column="0" lean-forward="true" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/tg/tg_pdSendMessages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db_models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/tg/tg_botBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajax_auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="95" column="37" lean-forward="false" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="1371" column="24" lean-forward="true" selection-start-line="1371" selection-start-column="24" selection-end-line="1371" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/tg/log_handlers/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/tgBotApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/headers/site_footer_yabloko.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/index_yabloko.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/autopetition_yabloko.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="680" column="18" lean-forward="false" selection-start-line="680" selection-start-column="18" selection-end-line="680" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z.mobi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

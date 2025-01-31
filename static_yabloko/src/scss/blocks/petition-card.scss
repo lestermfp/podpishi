@@ -1,0 +1,93 @@
+.petition-card {
+	position: relative;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	margin-right: 10%;
+	background-color: $gray-bg;
+
+	@media (max-width: 991px) {
+		margin-right: 0;
+	}
+
+	@media (max-width: 767px) {
+		min-height: 590px;
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 0;
+		height: 2px;
+		background-color: $accent-color;
+		transition: width 0.2s ease;
+	}
+
+	&:hover {
+		text-decoration: none;
+		color: inherit;
+
+		&::after {
+			width: 100%;
+		}
+	}
+}
+
+.petition-card__image {
+	position: relative;
+	padding-top: 55.128205%;
+
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+}
+
+.petition-card__content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 25px 30px 28px;
+}
+
+.petition-card__title {
+	margin-bottom: 0.8em;
+	font-family: $font-accent;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.25;
+}
+
+.petition-card__text {
+	margin-bottom: 25px;
+}
+
+.petition-card__count {
+	display: flex;
+	flex-direction: column;
+	margin: auto 0 0 0;
+	font-family: $font-accent;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.2;
+	color: $accent-color;
+
+	b {
+		padding-left: 30px;
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 1.2;
+		background-image: url("../images/content/icon-done.svg");
+		background-repeat: no-repeat;
+		background-size: 25px auto;
+		background-position: 0 6px;
+	}
+}

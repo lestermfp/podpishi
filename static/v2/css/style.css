@@ -1,0 +1,693 @@
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+input, textarea, button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 18px;
+}
+
+.container {
+    position: relative;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+    min-height: 180px;
+    background: url("../images/top-header.jpg") no-repeat center 65%;
+    background-size: 100% auto;
+    position: relative;
+}
+
+.top .container {
+    height: 100%;
+}
+
+.wrote {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    width: 107px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #0095da;
+    font-size: 13px;
+    line-height: 13px;
+    color: #fff;
+    z-index: 1;
+}
+
+.wrote__text {
+    margin-bottom: 5px;
+}
+
+.wrote__num {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.triangle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    border-bottom-width: 45px;
+    border-left: 1px solid transparent;
+
+}
+
+.slogan1 {
+    margin: 10px 0 15px 0;
+}
+
+.slogan1 h1 {
+    font-size: 46px;
+    line-height: 45px;
+}
+
+form .container {
+    padding: 0;
+}
+
+form .container_inner {
+    padding: 0 25px;
+}
+
+.petition {
+    margin-bottom: 50px;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.petition__paper {
+    padding: 20px 0;
+    background-color: #f7f5e9;
+}
+
+.petition__paper {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.petition__paper:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-radius: 50%;
+    height: 20px;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    background-color: #f7f5e9;
+    box-shadow: 0px 11px 30px 5px rgba(64, 20, 18, 0.58);
+    z-index: -1;
+}
+
+.whom {
+    margin-bottom: 10px;
+}
+
+.form__row {
+    margin-bottom: 10px;
+}
+
+.form__input {
+    width: 100%;
+    height: 28px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ababab !important;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.form__input:focus {
+    border: 1px solid #85beff;
+}
+
+.form__input--short {
+    width: 120px;
+}
+
+.form__input--short:first-child {
+    margin-right: 5px;
+}
+
+.form__row-error .form__input {
+    border: 1px solid #ff4141;
+}
+
+.form__comment {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #7f7f7f;
+    text-align: center;
+}
+
+.form__comment.form__comment--longline::before {
+    width: 105px;
+    left: -115px;
+}
+
+.petition__text {
+    margin-top: 40px;
+}
+
+.petition__textarea {
+    width: 100%;
+    min-height: 580px;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+}
+
+.petition__text strong {
+    display: block;
+    text-align: center;
+}
+
+.petition__date {
+    text-align: right;
+}
+
+.petition__controls {
+    margin: 30px 0;
+    text-align: center;
+}
+
+#sign_sketch {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    margin-top: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.text_link {
+    display: inline-block;
+    line-height: 13px;
+    color: #0096ff;
+    border-bottom: 1px solid #0096ff;
+    cursor: pointer;
+}
+
+.text_link:hover {
+    color: #ff0000;
+    border-bottom: 1px solid #ff0000;
+}
+
+.sign_wrap {
+    position: relative;
+}
+
+.sign_wrap .text_link {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 9;
+}
+
+.petition__send {
+    padding: 25px 15px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    font-size: 16px;
+}
+
+.container--petition__send {
+    padding: 0 10px;
+}
+
+.form__checkbox {
+    position: absolute;
+    left: -9999px;
+}
+
+.label_checkbox {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.label_checkbox:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 1px solid #ababab;
+}
+
+.label_checkbox:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: -5px;
+    width: 17px;
+    height: 17px;
+    background-image: url(../images/icon-checkbox.png);
+    display: none;
+}
+
+.form__checkbox:checked + .label_checkbox:after {
+    display: block;
+}
+
+.petition__send .flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.petition__send {
+    text-align: center;
+}
+
+.subscribe {
+    padding-bottom: 10px;
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.subscribe label {
+    text-align: center;
+}
+
+.subscribe__input {
+    display: block;
+    width: 225px;
+    height: 38px;
+    margin: 5px auto 0 auto;
+    padding: 0 10px;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.subscribe__input:focus {
+    border: 1px solid #85beff;
+}
+
+.button {
+    height: 51px;
+    margin-top: 18px;
+    background-color: #ff0000;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.subscribe__button {
+    width: 225px;
+}
+
+.footer {
+    padding: 30px 0;
+    background-color: #f0f0f0;
+}
+
+.footer .flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .flexbox__item {
+    text-align: center;
+}
+
+.footer .flexbox__item:first-child {
+    margin-bottom: 25px;
+}
+
+.more_margin {
+    margin-bottom: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.wrap {
+    padding: 0 10px;
+}
+
+.modal_wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .34);
+    z-index: 8888;
+}
+
+.modal_wrap--hidden {
+    display: none;
+}
+
+.modal, .modal__text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+}
+
+.modal {
+    width: 90%;
+    height: 90%;
+    background-color: #ebebeb;
+    z-index: 9999;
+}
+
+.modal__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.modal__text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.modal__text strong {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.modal__text p {
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 24px;
+}
+
+.modal__button {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.controls_edit {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.edit__button {
+    width: 130px;
+    height: 32px;
+    margin: 10px 15px 0 0;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.send__button {
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+@media screen and (min-width: 568px) {
+
+    .form__block {
+        width: 250px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .wrote {
+        width: 190px;
+        font-size: 20px;
+        line-height: 19px;
+        padding: 15px 20px;
+    }
+
+    .wrote__num {
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: -1px;
+    }
+
+    .petition__paper .container_inner {
+        text-align: right;
+    }
+
+    .petition__text {
+        text-align: left;
+    }
+
+    .petition__text .form__row:last-child {
+        text-align: right;
+    }
+
+    #sign_sketch {
+        display: inline-block;
+        width: 340px;
+    }
+
+    .petition__send .flexbox {
+        flex-direction: row;
+    }
+
+    .petition__send .flexbox__item:first-child {
+        margin-right: 90px;
+    }
+
+    .petition__paper {
+        padding-bottom: 100px;
+    }
+
+    .subscribe {
+        margin: 0;
+    }
+
+    .edit_text {
+        float: right;
+        margin-top: -18px;
+    }
+
+    .modal__text {
+        padding: 75px;
+    }
+
+    .modal__button {
+        width: 265px;
+        padding: 0 25px;
+        box-sizing: border-box;
+    }
+
+    .send__button {
+        width: 485px;
+        height: 51px;
+    }
+
+    .sign_wrap + .form__comment {
+        width: 340px;
+        float: right;
+    }
+
+    .form__comment {
+        text-align: left;
+    }
+
+    .form__comment--longline {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .top {
+        max-height: 570px;
+    }
+
+    .container, form .container {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    .form .container_inner {
+        padding: 0 30px;
+    }
+
+    .slogan1 {
+        position: relative;
+        top: -540px;
+        left: 0;
+    }
+
+    .slogan1 h1 {
+        font-size: 62px;
+        line-height: 62px;
+    }
+
+    .slogan2 {
+        position: relative;
+        margin-top: -295px;
+    }
+
+    .slogan2 h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 0px 0px 13px rgba(0, 0, 0, 1);
+    }
+
+    .wrote {
+        bottom: 40px;
+    }
+
+    .wrap {
+        padding: 0;
+    }
+
+    .petition__paper {
+        width: 675px;
+        box-shadow: 0px 11px 30px 5px rgba(64, 20, 18, 0.28);
+    }
+
+    .petition__paper:before {
+        content: none;
+    }
+
+    .petition__send {
+        width: 675px;
+    }
+
+    .form__block {
+        width: 250px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .form__comment {
+        position: absolute;
+        top: -5px;
+        right: -245px;
+        width: 190px;
+        color: #000;
+        text-align: left;
+    }
+
+    .form__comment:before {
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 1px;
+        background-color: #000;
+        left: -45px;
+        top: 8px;
+    }
+
+    .form__comment--longline {
+        top: 15px;
+        right: -220px;
+    }
+
+    .sign_wrap + .form__comment {
+        top: 5px;
+        width: 190px;
+        float: none;
+    }
+
+    .form__row-error .form__comment {
+        color: #ff4141;;
+    }
+
+    .form__row-error .form__comment:before {
+        content: none;
+    }
+
+    .form__row {
+        position: relative;
+    }
+
+    .petition__controls {
+        display: none;
+    }
+
+    .footer .flexbox {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .petition__send {
+        padding: 25px 15px 15px 15px;
+    }
+
+    .petition__send .container_inner {
+        padding: 0;
+    }
+
+    .wrote__text:last-child {
+        margin-top: -5px;
+    }
+
+    .modal {
+        width: 600px;
+        height: 520px;
+    }
+
+    .controls_edit {
+        float: left;
+        margin-top: -14px;
+    }
+}
+

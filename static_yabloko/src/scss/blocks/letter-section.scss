@@ -1,0 +1,49 @@
+.letter-section {
+	margin-bottom: 54px;
+
+	@media (max-width: 768px) {
+		margin-bottom: 20px;
+	}
+}
+
+.letter-section__overlay {
+	margin-bottom: 37px;
+	padding: 44px 50px 50px 42px;
+	background-color: $gray-bg;
+	border-radius: 8px;
+
+	@media (max-width: 768px) {
+		margin-bottom: 60px;
+		padding: 28px 16px 52px;
+	}
+}
+
+.letter-section__warning {
+	margin-top: 26px;
+	color: #bdbdbd;
+
+	@media (max-width: 768px) {
+		line-height: 18px;
+	}
+
+	a {
+		color: $accent-color;
+		transition: color 0.3s ease;
+
+		&:hover {
+			color: $accent-color-hover;
+		}
+	}
+}
+
+.letter-section__submit {
+	@media (max-width: 768px) {
+		padding: 0 28px;
+
+		.btn {
+			padding-top: 15px;
+			padding-bottom: 16px;
+			min-width: 212px;
+		}
+	}
+}

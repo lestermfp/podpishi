@@ -1,0 +1,263 @@
+.calls .dashboard {
+    min-height: 215px;
+}
+
+.calls .counter .counter__num, .calls .counter .counter__text {
+    display: block;
+    text-align: left;
+}
+
+.calls .flexbox--calls .flexbox__item:last-child {
+    flex: 1.55;
+}
+
+.calls .flexbox--calls .flexbox__item:first-child {
+    margin-right: 130px;
+    flex: 2;
+}
+
+.calls__explain {
+    padding: 10px 0 70px 0;
+}
+
+.calls .button {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.calls .button:first-child {
+    margin-top: 15px;
+}
+
+.calls .counter {
+    margin: 11px 0 0 -11px;
+}
+
+.calls .counter .counter__item {
+    vertical-align: top;
+}
+
+.calls .counter .counter__item:last-child .counter__text {
+    margin-left: 10px;
+}
+
+.calls__howitworks {
+    min-height: 500px;
+}
+
+.calls__title {
+    margin-bottom: 30px;
+}
+
+.calls__subtitle {
+    line-height: 19px;
+}
+
+.calls__try .text-bold {
+    margin-left: 2px;
+}
+
+.calls__instruction {
+    padding-bottom: 20px;
+}
+
+.calls__instruction .calls__title {
+    margin-bottom: 20px;
+}
+
+.calls__instruction .flexbox--calls {
+    margin-left: 40px;
+}
+
+.calls__instruction p {
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.calls__instruction .mail {
+    margin-top: 10px;
+}
+
+.calls__example {
+    padding-bottom: 95px;
+}
+
+.highlighted-block {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 14px;
+    background-color: #e5f7fd;
+}
+
+.calls .highlighted-block {
+    width: 580px;
+    padding: 25px 20px 35px 20px;
+    margin-left: -20px;
+}
+
+.calls__example .margin {
+    margin-left: 40px;
+    position: relative;
+}
+
+.calls .quotes {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/icon-quotes.png);
+    background-repeat: no-repeat;
+}
+
+.calls .quotes--open {
+    top: -6px;
+    left: -30px;
+    background-position: 0 0;
+}
+
+.calls .quotes--close {
+    bottom: -10px;
+    right: 95px;
+    background-position: -25px 0;
+}
+
+.quizlist__item {
+    list-style: inherit;
+}
+
+.highlighted-block .calls__title {
+    margin-bottom: 22px;
+}
+
+.highlighted-block p {
+    margin: 5px 0 5px 0;
+}
+
+.quizlist {
+    margin: 30px 0 0 15px;
+    padding: 0;
+}
+
+.quizlist__item {
+    margin-bottom: 10px;
+}
+
+
+/*.header__link--upper {
+    text-transform: uppercase;
+}
+
+.header__link--upper:hover {
+    color: #ff0000;
+    background-color: #000;
+}
+
+.header__link--opacity {
+    opacity: .5;
+}
+
+.header__link--green, .header__link--opacity.header__link--green:hover {
+    background-color: #39b54a;
+}
+
+.header__link--green:hover {
+    background-color: #119c24;
+}
+
+.header__link--red, .header__link--opacity.header__link--red:hover {
+    background-color: #ff0000;
+}
+
+.header__link--red:hover {
+    background-color: #c40008;
+}
+
+.header__link--blue, .header__link--opacity.header__link--blue:hover {
+    background-color: #0195ff;
+}
+
+.header__link--blue:hover {
+    background-color: #0183de;
+}
+
+.header__link--gray {
+    background-color: #494949;
+}
+
+
+
+.calls {
+    padding-bottom: 40px;
+}
+
+.calls__right {
+    margin: 5px 0 16px 0;
+    text-align: right;
+}
+
+.calls__title {
+    margin-bottom: 20px;
+}
+
+.calls__greeting {
+    width: 660px;
+    line-height: 26px;
+    margin-bottom: 45px;
+}
+
+.calls__buttons .button {
+    padding: 0 19px;
+    margin-right: 5px;
+}
+
+.calls .button--underlined {
+    width: 160px;
+}
+
+.calls .form {}
+
+.survey__title {
+    margin-top: 16px;
+}
+
+.survey__text {
+    width: 660px;
+    line-height: 26px;
+    margin: 13px 0 20px 0;
+}
+
+.survey .form__input {
+    width: 500px;
+}
+
+.survey .button {
+    width: 140px;
+    position: relative;
+    padding-right: 15px;
+}
+
+.survey .button:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 95px;
+    top: 15px;
+    background-image: url(../images/icon-back.png);
+    background-size: 30px 10px;
+    background-repeat: no-repeat;
+    background-position: -20px 0;
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.calls .form__radio-button {
+    width: 280px;
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}*/
+
+
+

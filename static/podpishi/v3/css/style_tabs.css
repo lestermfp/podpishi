@@ -1,0 +1,1690 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+input, textarea, button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 18px;
+}
+
+.container {
+    position: relative;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+
+.top__overlay{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dfe3ee+44,ffffff+100&1+43,1+43,1+43,1+43,1+43,0+100 */
+    /*
+    background: -moz-linear-gradient(left, rgba(223,227,238,1) 31%, rgba(223,227,238,0.98) 22%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(223,227,238,1) 31%,rgba(223,227,238,0.98) 22%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(223,227,238,1) 31%,rgba(223,227,238,0.98) 22%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe3ee', endColorstr='#00ffffff',GradientType=1 );
+    */
+
+}
+
+.top-outer {
+    position: relative;
+    margin: 0 auto;
+}
+
+svg {
+    display: none;
+}
+
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #7f7f7f;
+}
+
+.top {
+    width: 100%;
+    /*min-height: 100vh;*/
+    background: url("../images/top-header-mobile.jpg") no-repeat center bottom;
+    background-size: cover;
+    position: relative;
+}
+
+.top .container {
+    height: 100%;
+}
+
+.wrote {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    /*padding: 10px;*/
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.wrote__text:last-child {
+    margin-top: 3px;
+}
+
+
+.wrote img{
+    width: 177px;
+
+}
+
+.wrote__text {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.wrote__num {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    letter-spacing: -4px;
+}
+
+.wrote .text_link {
+    display: inline-block;
+    color: #fff;
+    border-bottom: 0;
+    font-size: 14px;
+}
+
+.triangle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    border-bottom-width: 45px;
+    border-left: 1px solid transparent;
+
+}
+
+.slogan1 {
+    margin: 10px 0 15px 0;
+}
+
+.slogan1 h1 {
+    font-size: 46px;
+    line-height: 45px;
+}
+
+form .container {
+    padding: 0;
+}
+
+form .container_inner {
+    padding: 0 35px 0 25px;
+}
+
+.petition {
+    margin-bottom: 20px;
+    padding: 22px 0;
+    font-size: 14px;
+}
+
+.petition__paper {
+    position: relative;
+    margin-bottom: 64px;
+    padding: 20px 0 30px 0;
+    background-color: #f7f5e9;
+    box-shadow: 0px -11px 35px 5px rgba(64, 20, 18, 0.18);
+}
+
+/*.petition__paper:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-radius: 50%;
+    height: 20px;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    background-color: #f7f5e9;
+    box-shadow: 0px 11px 30px 5px rgba(64, 20, 18, 0.58);
+    z-index: -1;
+}*/
+
+.whom {
+    margin-bottom: 10px;
+}
+
+.form__row {
+    margin-bottom: 10px;
+}
+
+.form__input {
+    width: 100%;
+    height: 28px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ababab !important;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.form__input:focus {
+    border: 1px solid #85beff;
+}
+
+.form__input--short {
+    width: 113px;
+}
+
+.form__input--short:first-child {
+    margin-right: 5px;
+}
+
+.form__row-error .form__input {
+    border: 1px solid #ff4141;
+}
+
+.form__comment {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #7f7f7f;
+    text-align: center;
+}
+
+.form__error {
+    display: none;
+}
+
+.form__comment.form__comment--longline::before {
+    width: 100px;
+    left: -110px;
+}
+
+.petition__text {
+    margin-top: 12px;
+}
+
+.petition__textarea {
+    width: 100%;
+    min-height: 580px;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+}
+
+.petition__text strong {
+    display: block;
+    max-width: 310px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.petition__date {
+    text-align: right;
+}
+
+.petition__controls {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.petition__textblock p {
+    line-height: 22px;
+}
+
+#sign_sketch {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    margin-top: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.text_link {
+    display: inline-block;
+    line-height: 13px;
+    color: #0096ff;
+    border-bottom: 1px solid #0096ff;
+    cursor: pointer;
+}
+
+.text_link:hover {
+    /* color: #ff0000; */
+    /* border-bottom: 1px solid #ff0000; */
+    /*text-decoration: underline;*/
+    cursor: pointer;
+    /*cursor: default;*/
+}
+
+.sign_wrap {
+    position: relative;
+    width: 340px;
+    display: inline-block;
+}
+
+.sign_wrap .text_link {
+    position: absolute;
+    right: 14px;
+    bottom: 9px;
+    z-index: 9;
+}
+
+.sketch-line {
+    position: absolute;
+    height: 1px;
+    background: gray;
+    width: 90%;
+    right: 20px;
+    bottom: 25px;
+    left: 20px;
+    pointer-events: none;
+}
+
+.petition__send {
+    padding: 25px 15px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    font-size: 16px;
+}
+
+.container--petition__send {
+    padding: 0 10px;
+}
+
+.form__checkbox {
+    position: absolute;
+    left: -9999px;
+}
+
+.label_checkbox {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.label_checkbox:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 1px solid #ababab;
+}
+
+.label_checkbox:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: -5px;
+    width: 17px;
+    height: 17px;
+    background-image: url(../images/icon-checkbox.png);
+    display: none;
+}
+
+.form__checkbox:checked + .label_checkbox:after {
+    display: block;
+}
+
+.petition__send .flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.petition__send {
+    text-align: center;
+}
+
+.subscribe {
+    padding-bottom: 10px;
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.subscribe label {
+    text-align: center;
+}
+
+.subscribe__input {
+    display: block;
+    width: 225px;
+    height: 38px;
+    margin: 5px auto 0 auto;
+    padding: 0 10px;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.subscribe__input:focus {
+    border: 1px solid #85beff;
+}
+
+.button {
+    height: 51px;
+    margin-top: 18px;
+    background-color: #ff0000;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.subscribe__button {
+    width: 225px;
+}
+
+.footer {
+    padding: 30px 0;
+    background-color: #f0f0f0;
+    padding-left: 51px;
+}
+
+.footer__banner {
+    width: 177px;
+    /*padding-top: 34px;*/
+    /*padding-bottom: 26px;*/
+}
+
+.footer .flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.footer .flexbox__item {
+    text-align: center;
+}
+
+.footer .flexbox__item:first-child {
+    margin-bottom: 25px;
+}
+
+.more_margin {
+    margin-bottom: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.wrap {
+    padding: 0 10px;
+}
+
+.modal_wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .34);
+    z-index: 8888;
+}
+
+.modal_wrap--hidden {
+    display: none;
+}
+
+.modal, .modal__text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.modal {
+    width: 90%;
+    height: 90%;
+    background-color: #ebebeb;
+    z-index: 9999;
+}
+
+.modal__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.modal__text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.modal__text strong {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.modal__text p {
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 24px;
+}
+
+.modal__button {
+    width: 100%;
+    margin-top: 40px;
+    height: auto;
+}
+
+.controls_edit {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.edit__button {
+    width: 130px;
+    height: 32px;
+    margin: 10px 15px 0 0;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.send__button {
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 30px 14px 30px;
+    width: 300px;
+    float: left;
+}
+
+
+.send__button--yellow {
+    background-color: #F8EF21;
+    color: #000;
+}
+
+.send__button--big {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.182;
+    height: auto;
+    margin: 0 auto;
+    padding: 13px 22px 14px 20px;
+    /*width: 451px;*/
+    width: 100%;
+    background-color: #F8EF21;
+    letter-spacing: 0.1px;
+    color: #000;
+    float:none;
+}
+
+
+
+.petition_nav {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.petition_nav__item {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    margin-right: 2px;
+    width: 32%;
+    height: 40px;
+    line-height: 42px;
+    background-color: #f7f5e9;
+    text-align: center;
+    cursor: default;
+}
+
+.petition_nav__item span {
+    color: #000000;
+    line-height: 18px;
+}
+
+.petition_nav__item--active {
+    z-index: 10;
+    background: #F8EF21;
+}
+
+.petition_nav__item--active span {
+    border-bottom: none !important;
+}
+
+.petition_nav__item--active span:hover {
+
+}
+
+.petition_nav__item--checked:before {
+    content: '';
+    position: absolute;
+    top: -13px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #6ec200;
+}
+
+.petition_nav__item--checked:after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 15px;
+    width: 15px;
+    height: 17px;
+    background-image: url(../images/icon-check.png);
+}
+
+.top_popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    padding: 35px 75px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 99;
+}
+
+.top_popup strong {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.top_popup p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.top_popup__close {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+.social {
+    /*margin-bottom: 35px;*/
+    padding: 32px 0;
+    text-align: center;
+}
+
+.social__title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-bottom: 8px;
+    /*text-align: center;*/
+    /*display: inline-block;*/
+    vertical-align: top;
+}
+
+.top-left {
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+    z-index: 5;
+    -webkit-transition: all 0.5s;
+    -moz-transition:    all 0.5s;
+    -ms-transition:     all 0.5s;
+    -o-transition:      all 0.5s;
+    transition:      all 0.5s;
+
+    /*z-index: 2;*/
+    overflow: hidden;
+    /*cursor: pointer;*/
+
+}
+.top-left-bg {
+
+    /*background: url("../images/top-left.png") no-repeat 100% 100%;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition:    all 0.5s;
+    -ms-transition:     all 0.5s;
+    -o-transition:      all 0.5s;
+    transition:      all 0.5s;
+
+    /*transform: skew(-10deg) ;*/
+    /*-webkit-transform: skew(-10deg);*/
+    /*-moz-transform: skew(-10deg);*/
+    /*-o-transform: skew(-10deg);*/
+
+}
+
+.top-left-bg:before {
+    /*/!* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#01114f+0,ffffff+100&0.5+0,0+38 *!/*/
+    /*background: -moz-linear-gradient(top,  rgba(1,17,79,0.5) 0%, rgba(98,107,146,0) 38%, rgba(255,255,255,0) 100%); /!* FF3.6-15 *!/*/
+    /*background: -webkit-linear-gradient(top,  rgba(1,17,79,0.5) 0%,rgba(98,107,146,0) 38%,rgba(255,255,255,0) 100%); /!* Chrome10-25,Safari5.1-6 *!/*/
+    /*background: linear-gradient(to bottom,  rgba(1,17,79,0.5) 0%,rgba(98,107,146,0) 38%,rgba(255,255,255,0) 100%); /!* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!/*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8001114f', endColorstr='#00ffffff',GradientType=0 ); /!* IE6-9 *!/*/
+
+
+
+    /*z-index: 3;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*top: 0;*/
+    /*content: "";*/
+}
+/*.top-left-bg:after {
+    z-index: 4;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100px;
+    right: 11%;
+    bottom: 0;
+    background: rgba(175,234,255,0.5);
+    transform: skew(-10deg) ;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+    -webkit-transition: all 0.5s;
+    -moz-transition:    all 0.5s;
+    -ms-transition:     all 0.5s;
+    -o-transition:      all 0.5s;
+    transition:      all 0.5s;
+}*/
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 72%;
+    /*background: url("../images/top-right.png") no-repeat center center;*/
+    /*background-size: 100% auto;*/
+
+    -webkit-transition: all 0.5s;
+    -moz-transition:    all 0.5s;
+    -ms-transition:     all 0.5s;
+    -o-transition:      all 0.5s;
+    transition:      all 0.5s;
+}
+/*.top-right-bg {
+    background: url("../images/top-header.jpg") no-repeat 0 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    -webkit-transition: all 0.5s;
+    -moz-transition:    all 0.5s;
+    -ms-transition:     all 0.5s;
+    -o-transition:      all 0.5s;
+    transition:      all 0.5s;
+
+}*/
+.velo .top-left {
+    /*    width: 100%;
+        cursor: default;*/
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 320px;
+    max-width: 1000px;
+}
+.velo .top-left-bg:after {
+    right: 6%;
+    opacity: 0;
+}
+.velo .top-right {
+    width: 43%;
+    cursor: pointer;
+}
+.top-right-bg:after  {
+    z-index: 4;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -100px;
+    left: 6%;
+    bottom: 0;
+    background: rgba(175,234,255,0.5);
+    transform: skew(-10deg) ;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+    -webkit-transition: all 0.5s;
+    -moz-transition:    all 0.5s;
+    -ms-transition:     all 0.5s;
+    -o-transition:      all 0.5s;
+    transition:      all 0.5s;
+    opacity: 0;
+}
+.velo .top-right-bg:after {
+    opacity: 1;
+    left: 9.4%;
+}
+.velo .top-right:hover .top-right-bg:after {
+    background: rgba(175,234,255,0.1);
+}
+.top {
+    overflow: hidden;
+
+}
+
+.top.velo {
+    background-size: 100% 100%;
+}
+
+.top-title {
+    /*position: relative;*/
+    font-size: 16.333px;
+    /*font-family: 'PT Sans', sans-serif;*/
+    color: #000;
+    font-weight: bold;
+    line-height: 1.036;
+
+
+    padding-left: 5%;
+    /*z-index: 10;*/
+    line-height: 1.1;
+    -webkit-transition: all 0.5s;
+    -moz-transition:    all 0.5s;
+    -ms-transition:     all 0.5s;
+    -o-transition:      all 0.5s;
+    transition:      all 0.5s;
+}
+
+.top-title strong {
+    display: inline-block;
+    line-height: 0.8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 11px;
+    margin-left: -20px;
+
+}
+
+.top-left .top-title {
+    padding-top: 38px;
+    position: relative;
+}
+.top-right .top-title {
+    padding-left: 17%;
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    font-size: 48px;
+}
+.velo .top-left .top-title{
+    line-height: 1.2;
+    font-size: 32px;
+}
+
+.velo .top-left p{
+    /*z-index: 99;*/
+    position: relative;
+    font-size: 20px;
+    line-height: 1.143;
+    padding: 5%;
+    padding-top: 30px;
+    max-width: 320px;
+}
+
+.velo .top-right .top-title {
+    font-size: 32px;
+}
+.likely {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo-city4people {
+    float: right;
+    margin-top: -30px;
+}
+.page {
+    display: none;
+    /*margin-top: -70px;*/
+    margin-top: 10px;
+
+}
+.page.active {
+    display: block;
+}
+.president-velo {
+    background: #009fe3;
+
+}
+.president-velo img {
+    width: 100%;
+    display: block;
+}
+.col-50 {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.president-velo .text-downtime {
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.president-velo .text-downtime a {
+    color: #ffed01;
+}
+.president-velo .button--blue {
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-right: 0;
+    margin-left: -185px;
+    background: #009fe3;
+    opacity: 1;
+}
+.button-comment {
+    margin-left: 360px;
+    text-align: left;
+    line-height: 1;
+}
+.green-check {
+    background: url("../images/green-check.png") no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 5px;
+    top: -11px;
+}
+
+
+@media screen and (min-width: 568px) {
+    .send__button--big {
+        width: 451px;
+    }
+    .wrote {
+        text-align: left;
+        position: absolute;
+        top: 40px;
+        left: 55px;
+        width: 107px;
+        /*padding: 10px;*/
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 1;
+        color: #000;
+        z-index: 1;
+    }
+    svg {
+        display:block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 140px;
+    }
+    .form__block {
+        width: 235px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .wrote {
+        width: 190px;
+        font-size: 20px;
+        /*line-height: 19px;*/
+        padding: 0px 20px;
+    }
+
+    .wrote__num {
+        font-size: 48px;
+        /*line-height: 36px;*/
+
+    }
+
+    .wrote__text:nth-child(3) {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .petition {
+        margin-bottom: 37px;
+    }
+
+    .petition__paper {
+        box-shadow: 0px 11px 35px 5px rgba(64, 20, 18, 0.58);
+    }
+
+    .petition__paper .container_inner {
+        text-align: right;
+    }
+
+    .petition__text {
+        text-align: left;
+    }
+
+    .petition__text .form__row:last-child {
+        text-align: right;
+    }
+
+    .appeal-text-main[contenteditable="true"] {
+        background: #fff;
+        padding-left: 10px;
+        margin-left: 40px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+    .whom_header_petition[contenteditable="true"] {
+
+        background: white;
+        margin-right: 150px;
+        margin-left: 150px;
+
+    }
+
+    .petition__textblock {
+        padding-left: 50px;
+        padding-bottom: 40px;
+        padding-top: 1px;
+    }
+
+    #sign_sketch {
+        display: inline-block;
+        width: 340px;
+    }
+
+    .petition_nav {
+        display: block;
+    }
+
+    .petition__send .flexbox {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .petition__send .flexbox__item:first-child {
+        margin-right: 90px;
+    }
+
+    .petition__paper {
+        padding: 36px 0 100px 0;
+    }
+
+    .subscribe {
+        margin: 0;
+    }
+
+    .edit_text {
+        float: right;
+        margin-top: -30px;
+    }
+
+
+    .modal__text {
+        padding: 75px;
+    }
+
+    .modal__button {
+        padding: 10px 25px;
+        box-sizing: border-box;
+    }
+
+    .send__button {
+        width: 300px;
+        height: 51px;
+    }
+
+    .send__button--big {
+        font-size: 22px;
+        height: auto;
+        margin: 0 auto;
+
+        width: 451px;
+        background-color: #F8EF21;
+        color: #000;
+    }
+
+    .sign_wrap + .form__comment {
+        width: 340px;
+        float: right;
+    }
+
+    .form__comment {
+        text-align: left;
+    }
+
+    .form__comment--longline {
+        text-align: center;
+    }
+
+    .top_popup {
+        width: 500px;
+        height: 255px;
+    }
+
+    .petition_nav__item {
+        width: 215px;
+        cursor: pointer;
+    }
+
+    .petition_nav__item {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .top {
+        width: 100%;
+        min-height: 580px;
+        background: url("../images/top-header2.jpg") no-repeat 32% bottom;
+        /*background-position: -310px 0px;*/
+        background-position: 50% 0px;
+        background-size: cover;
+        position: relative;
+    }
+
+
+
+    .top-title {
+        color: #000;
+        font-weight: bold;
+        padding-left: 5%;
+        z-index: 10;
+        line-height: 1.1;
+        -webkit-transition: all 0.5s;
+        -moz-transition:    all 0.5s;
+        -ms-transition:     all 0.5s;
+        -o-transition:      all 0.5s;
+        transition:      all 0.5s;
+    }
+
+    .velo .top-left p{
+        font-size: 14px;
+        line-height: 1.143;
+        padding-left: 5%;
+        padding-top: 25px;
+        max-width: 340px;
+    }
+
+    .top-title strong {
+        display: inline-block;
+        line-height: 80%;
+        background-color: #000;
+        color: yellow;
+
+        padding: 3px 13px 8px 16px;
+
+        /*padding-left: 16px;*/
+        /*padding-right: 20px;*/
+        /*padding-bottom: 11px;*/
+
+        margin-left: -16px;
+
+    }
+
+    .windows {
+        line-height: 0.8!important;
+        padding: 0!important;
+        padding-left: 16px!important;
+        padding-right: 20px!important;
+        padding-bottom: 11px!important;
+
+
+    }
+
+    .velo .top-left .top-title{
+        line-height: 58px;
+        font-size: 56px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1000px) {
+    svg {
+        height: 212px;
+    }
+    .form__error {
+        display: inline;
+        margin-top: 10px;
+        font-size: 16px;
+        color: rgb(255, 0, 0);
+        font-style: italic;
+        line-height: 1.125;
+        text-align: center;
+    }
+    .page {
+        margin-top: -126px;
+    }
+
+    .top {
+        min-height: 612px;
+        background-position: center top;
+        /*background-position: 40px 0px;*/
+    }
+
+    .container, form .container {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+
+    .form .container_inner {
+        padding: 0 30px;
+    }
+
+    .slogan1 {
+        position: relative;
+        top: -540px;
+        left: 0;
+    }
+
+    .slogan1 h1 {
+        font-size: 62px;
+        line-height: 62px;
+    }
+
+    .slogan2 {
+        position: relative;
+        /*margin-top: -325px;*/
+    }
+
+    .slogan2 h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+        /*text-shadow: 0px 0px 13px rgba(0, 0, 0, 1);*/
+    }
+
+    .wrote {
+        /*bottom: 40px;*/
+    }
+
+    .wrap {
+        padding: 0;
+    }
+
+    .petition__paper {
+        width: 675px;
+    }
+
+    .petition__paper:before {
+        content: none;
+    }
+
+    .petition__send {
+        /*width: 675px;*/
+    }
+
+    .form__comment {
+        position: absolute;
+        top: -5px;
+        right: -253px;
+        width: 190px;
+        color: #000;
+        text-align: left;
+    }
+
+    .form__error {
+        position: absolute;
+        top: -5px;
+        right: -253px;
+        width: 190px;
+        text-align: left;
+    }
+
+    .form__comment:before {
+        content: '';
+        position: absolute;
+        width: 43px;
+        height: 1px;
+        background-color: #000;
+        left: -50px;
+        top: 8px;
+    }
+
+    .form__comment--longline {
+        top: 15px;
+        right: -220px;
+    }
+
+    .sign_wrap + .form__comment {
+        top: 11px;
+        width: 190px;
+        float: none;
+    }
+
+    .form__row-error .form__comment {
+        color: #ff4141;;
+    }
+
+    .form__row-error .form__comment:before {
+        content: none;
+    }
+
+    .form__row {
+        position: relative;
+    }
+
+    .petition__controls {
+        display: none;
+    }
+
+    .footer .flexbox {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .petition__send {
+        padding: 25px 15px;
+    }
+
+    .petition__send .container_inner {
+        padding: 0;
+    }
+
+    .wrote__text:last-child {
+        margin-top: 3px;
+    }
+
+    .modal {
+        width: 600px;
+        height: 520px;
+    }
+
+    .controls_edit {
+        float: left;
+        margin-top: -14px;
+    }
+
+    .top_popup {
+        width: 600px;
+    }
+    /*    .top-left {
+            width: 36%;
+        }*/
+
+    /*    .top-left .top-title {
+            padding-left: 25.97%;
+
+        }*/
+
+    .velo .top-left p{
+        /*padding-left: 26.1%;*/
+        /*padding-top: 25px;*/
+        /*max-width: 340px;*/
+    }
+}
+
+
+@media screen and (min-width: 2000px) {
+    .top {
+        min-height: 612px;
+    }
+}
+
+@media (max-width: 900px) {
+    .logo-city4people {
+        float: none;
+        margin-top: 20px;
+    }
+    .president-velo .text-downtime {
+        padding-left: 0;
+    }
+    .col-50 {
+        width: 100%;
+    }
+    .button-comment {
+        margin-left: 0;
+    }
+    .send__button {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .send__button--big {
+        margin: 0 auto;
+    }
+
+}
+
+#sign_sketch {
+    border: 1px solid gray;
+}
+
+#sign_sketch.withOpacity {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.form__row .before-input {
+    position: absolute;
+    left: -19px;
+    top: 3px;
+}
+
+/*.wrote {
+    height: 125px;
+}*/
+
+.slogan1 h1 {
+    margin: 0;
+    text-shadow: 0px 0px 15px #ffffff;
+    /*margin-left: -150px;*/
+}
+
+
+@media screen and (min-width: 1000px){
+
+    .slogan1 {
+        position: relative;
+        top: -540px;
+    }
+}
+
+@media screen and (min-height: 800px){
+    .slogan1 h1 {
+        margin-left: initial ;
+    }
+}
+
+.petition__paper.mosgorduma {
+    background: #E9F2F7;
+}
+
+.send__button {
+    margin-left: 0;
+    display: block;
+}
+
+.send__button--big {
+    margin: 0 auto;
+}
+
+.form__comment.form__comment--longline::before {
+    width: 90px;
+    left: -95px;
+}
+
+.president {
+    background: #D9F1FB;
+    margin-bottom: 25px;
+}
+
+.president .container {
+    background: #D9F1FB url('/static/v2/images/president_letter.png') 0 100%;
+    background-repeat: no-repeat;
+    height: 345px;
+    text-align: right;
+}
+
+.button.button--blue {
+    background: #009FE3;
+    height: 65px;
+    width: 375px;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-right: 55px;
+}
+.button.button--blue:hover {
+    background: #0091cf;
+}
+
+.president .text-downtime {
+    width: 420px;
+    text-align: left;
+    position: absolute;
+    right: 60px;
+    margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+.top_popup {
+    height: 305px;
+}
+@media (max-width: 920px) {
+    .president .container {
+        height: auto;
+        text-align: left;
+    }
+    .president .text-downtime {
+        position: static;
+        padding-bottom: 340px;
+        width: auto;
+    }
+}
+
+
+
+/*
+    Extra styles
+ */
+
+
+
+:root {
+    --style-color: #99D9EA;
+}
+
+.send__button--yellow {
+    background-color: var(--style-color);
+}
+
+.top {
+    background: none !important;
+}
+
+.velo .top-left {
+    max-width: 100%;
+}
+
+.top-title {
+    visibility: hidden;
+}
+
+.page {
+    margin-top: -200px;
+}
+
+.splash {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 484px;
+    overflow: hidden;
+}
+
+.splash::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    background: white;
+    height: 220px;
+    transform: rotateZ(5deg);
+    transform-origin: bottom right;
+    top: 100%;
+    left: -50px;
+    right: -50px;
+}
+
+.splash__text {
+    position: relative;
+    z-index: -2;
+    background: var(--style-color);
+    width: 50%;
+}
+
+.splash__text::before {
+    content: '';
+    position: absolute;
+    background: var(--style-color);
+    right: -50px;
+    top: -50px;
+    bottom: -50px;
+    width: 150px;
+    transform: rotateZ(9deg);
+    z-index:-1;
+}
+
+.splash__text-wrap {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px 0 0 70px;
+}
+
+.splash__title {
+    color: black;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 54px;
+}
+
+.splash__description {
+    color: black;
+    font-size: 23px !important;
+    font-weight: bold;
+    text-align: left;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    margin-bottom: 120px;
+}
+
+.splash__image {
+    background: var(--style-color);
+    flex-grow: 1;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: -3;
+}
+
+@media all and (max-width: 650px) {
+    .splash {
+        flex-direction: column;
+    }
+
+    .splash__text::before {
+        width: auto;
+        height: 60px;
+        transform: rotateZ(5deg);
+        transform-origin: bottom right;
+        top: 100%;
+        left: -50px !important;
+        right: -50px !important;
+    }
+
+    .splash__text {
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .splash__text-wrap {
+        padding: 40px 20px 0 20px;
+    }
+    .splash__title {
+        font-size: 34px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .splash__description {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .splash__image {
+        flex-basis: 100%;
+        min-height: 484px;
+    }
+}
